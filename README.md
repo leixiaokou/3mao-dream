@@ -26,3 +26,10 @@ getdata.php 获取已支付订单列表。
 落魄PHP开发LaJun 微信1361683946
 #### 感谢
 本项目基于PHP支付宝当面付项目 https://github.com/yumusb/alipay-f2fpay    感谢！
+#### 推广UCloud廉价服务器
+  <div class="" style="max-width: 600px;margin:20px auto;">
+            <a href="https://www.ucloud.cn/site/global.html?ytag=re598A"><img style="width: 100%; height: auto" src="https://leijun-common.oss-cn-shenzhen.aliyuncs.com/E0CA8A10-A010-4B85-800D-7CF58A18DFDC.png"></a>
+          </div>
+          <div class="" style="max-width: 600px;margin:20px auto;">
+            <a href="https://www.ucloud.cn/site/active/1111.html?ytag=re598A"><img style="width: 100%; height: auto" src="https://leijun-common.oss-cn-shenzhen.aliyuncs.com/52FAF13E-C9CC-4444-901A-0F85F74E9D63.png"></a>
+          </div>
