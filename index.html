@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>LaJun - 3毛钱助梦计划</title>
+  <meta name="description" content="关于LaJun的三毛钱助梦计划，全中国人没人给我一分钱，我将一夜暴富，给我三毛钱，我来祈祷你们的梦想能够实现">
+  <meta name="keywords" content="筑梦计划，3毛钱助梦计划致富,一夜暴富，完成我的梦想，你的梦想实现了吗，为梦想儿努力">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="//cdn.bootcss.com/layer/3.0.1/skin/default/layer.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.bootcss.com/twitter-bootstrap/4.0.0/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <link rel="stylesheet" href="static/payment.css">
+  <script>
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "https://hm.baidu.com/hm.js?034cacaba9a0b139b3a3a362e07da743";
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(hm, s);
+    })();
+  </script>
+
+  <style>
+/* customizable snowflake styling */
+.snowflake {
+  color: #fff;
+  font-size: 1em;
+  font-family: Arial, sans-serif;
+  text-shadow: 0 0 5px #000;
+}
+@-webkit-keyframes snowflakes-fall{0%{top:-10%}100%{top:100%}}@-webkit-keyframes snowflakes-shake{0%,100%{-webkit-transform:translateX(0);transform:translateX(0)}50%{-webkit-transform:translateX(80px);transform:translateX(80px)}}@keyframes snowflakes-fall{0%{top:-10%}100%{top:100%}}@keyframes snowflakes-shake{0%,100%{transform:translateX(0)}50%{transform:translateX(80px)}}.snowflake{position:fixed;top:-10%;z-index:9999;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;cursor:default;-webkit-animation-name:snowflakes-fall,snowflakes-shake;-webkit-animation-duration:10s,3s;-webkit-animation-timing-function:linear,ease-in-out;-webkit-animation-iteration-count:infinite,infinite;-webkit-animation-play-state:running,running;animation-name:snowflakes-fall,snowflakes-shake;animation-duration:10s,3s;animation-timing-function:linear,ease-in-out;animation-iteration-count:infinite,infinite;animation-play-state:running,running}.snowflake:nth-of-type(0){left:1%;-webkit-animation-delay:0s,0s;animation-delay:0s,0s}.snowflake:nth-of-type(1){left:10%;-webkit-animation-delay:1s,1s;animation-delay:1s,1s}.snowflake:nth-of-type(2){left:20%;-webkit-animation-delay:6s,.5s;animation-delay:6s,.5s}.snowflake:nth-of-type(3){left:30%;-webkit-animation-delay:4s,2s;animation-delay:4s,2s}.snowflake:nth-of-type(4){left:40%;-webkit-animation-delay:2s,2s;animation-delay:2s,2s}.snowflake:nth-of-type(5){left:50%;-webkit-animation-delay:8s,3s;animation-delay:8s,3s}.snowflake:nth-of-type(6){left:60%;-webkit-animation-delay:6s,2s;animation-delay:6s,2s}.snowflake:nth-of-type(7){left:70%;-webkit-animation-delay:2.5s,1s;animation-delay:2.5s,1s}.snowflake:nth-of-type(8){left:80%;-webkit-animation-delay:1s,0s;animation-delay:1s,0s}.snowflake:nth-of-type(9){left:90%;-webkit-animation-delay:3s,1.5s;animation-delay:3s,1.5s}.snowflake:nth-of-type(10){left:25%;-webkit-animation-delay:2s,0s;animation-delay:2s,0s}.snowflake:nth-of-type(11){left:65%;-webkit-animation-delay:4s,2.5s;animation-delay:4s,2.5s}
+</style>
+</head>
+<body>
+<div class="snowflakes" aria-hidden="true">
+ <div class="snowflake">2020</div>
+ <div class="snowflake">有对象</div>
+ <div class="snowflake">暴富</div>
+ <div class="snowflake">努力</div>
+ <div class="snowflake">奋斗</div>
+</div>
+  <main class="page payment-page">
+    <section class="payment-form dark">
+      <div class="container">
+        <div class="block-heading">
+          <h2>LaJun - 3毛钱助梦</h2>
+          <p>简介：我的愿望是全中国人每人给我3毛钱，我祈祷您的梦想能实现。</p>
+        </div>
+        <form method="POST" action="pay.php" id="fupinform">
+          <div class="card-details">logo.png
+            <div id="main1"><h3 class="title">请说出您的梦想 &nbsp &nbsp<a href="https://wpa.qq.com/msgrd?v=3&uin=1361683946&site=qq&menu=yes">许下梦想后联系我助力您，QQ微信同号1361683946</a></h3>
+            <div class="row">
+              <input  class="form-control" type="hidden" value="0.3" id="inputamount" required>
+              <div class="form-group col-sm-12" style="margin-top:20px">
+                <input type="text" id="info" class="form-control"  name="body" value="我想一夜暴富">
+              </div>
+              <div class="form-group col-sm-12">
+                <button type="button" id="submit" class="btn btn-primary btn-block">立马圆梦</button>
+              </div>
+            </div></div>
+            <div style="display:none" id="main2"><h3 class="title">请为梦想买单</h3>
+            <div class="row">
+              <div class="form-group col-sm-12">
+              	<center><img id="success" style="display:none;height:200px;width:200px;position:absolute;top:50px;left:180px;z-index:2;" src="./static/success.png" /><img style="width:300px;height:300px;position:relative;" id="qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=http://taokeduo.cn"/></center>
+              </div>
+              <div class="form-group col-sm-12">
+              	<a style="display:none;" href="" type="button" id="fanhui" class="btn btn-success btn-block">点我返回</a>
+                <a href="" type="button" id="fangqi" class="btn btn-danger btn-block">放弃梦想</a>
+                <a href="!#" type="button" id="alipay" class="btn btn-primary btn-block">打开支付宝</a>
+              </div>
+            </div>
+          </div></div>
+          <div class="" style="max-width: 600px;margin: auto;">
+            <a href="https://u.jd.com/Aw8S58"><img style="width: 100%; height: auto" src="https://leijun-common.oss-cn-shenzhen.aliyuncs.com/jingdong618.jpeg"></a>
+          </div>
+          <div id="products" class="products"></div>
+          <div class="" style="max-width: 600px;margin: auto;">
+            <a href="https://www.aliyun.com/minisite/goods?userCode=p1hhmmgz"><img style="width: 100%; height: auto" src="https://leijun-common.oss-cn-shenzhen.aliyuncs.com/yun-da-shi.png"></a>
+          </div>
+          <div class="" style="max-width: 600px;margin: auto; margin-top: 20px">
+            <a href="https://m.tb.cn/h.VlxST0Y"><img style="width: 100%; height: auto" src="https://leijun-common.oss-cn-shenzhen.aliyuncs.com/taobao-union.jpeg"></a>
+        </form>
+
+        </div>
+         <div class="block-heading">
+           <p>Copyright Ⓒ 2020 3毛钱助梦计划. All rights reserved.<br>Powered By 落魄PHP开发LaJun &nbsp &nbsp <a href="https://github.com/leixiaokou">Github</a><a target="_blank" href="https://wpa.qq.com/msgrd?v=3&uin=1361683946&site=qq&menu=yes"><img border="0" src="https://wpa.qq.com/pa?p=2:1361683946:51" alt="点击这里给我发消息" title="QQ联系我"/></a></p>
+          </div>
+    </section>
+  </main>
+<script src="https://cdn.staticfile.org/jquery/3.2.1/jquery.min.js"></script>
+<script src="//cdn.bootcss.com/layer/3.0.1/layer.min.js"></script>
+<script src="https://cdn.bootcss.com/twitter-bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/yumusb/cdn@master/push.js"></script>
+<!--<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/yumusb/cdn@master/js/snow.js"></script>-->
+<script type="text/javascript" src="./static/app.js"></script>
+
+</body>
+</html>
